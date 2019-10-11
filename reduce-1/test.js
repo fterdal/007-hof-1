@@ -32,7 +32,7 @@ describe('Entries to Object', () => {
       fourth: undefined,
     })
   })
-  it('overwrites duplicate entries with the latest entry', () => {
+  it('Overwrites duplicate entries with the latest entry', () => {
     const input = [['first', 5], ['second', 'some value'], ['first', 20]]
     expect(reduceEntries(input)).to.deep.equal({
       first: 20,
