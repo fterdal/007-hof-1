@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon map-str",
-    "test-reduce-1": "mocha -w reduce-1"
+    "reduce-1": "mocha -w reduce-1",
+    "chaining-1": "mocha -w chaining-1"
   },
   "keywords": [],
   "author": "",
