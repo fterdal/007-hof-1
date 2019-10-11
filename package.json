@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon map-str"
+    "start": "nodemon map-str",
+    "test-reduce-1": "mocha -w reduce-1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.1",
     "nodemon": "^1.19.2"
   }
 }
