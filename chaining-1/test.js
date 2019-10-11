@@ -1,6 +1,6 @@
 console.clear()
 const { expect } = require('chai')
-const chainmail = require('.')
+const unjumble = require('.')
 
 describe('Entries to Object', () => {
   it('A', () => {})
